@@ -14,7 +14,7 @@ i = 1
 while i < 8:
     # 取出7个工件的标准视图进行特征提取
     sti = str(i)
-    path = r'F:\毕设\实验\图像分类与检测\标定前图像\单个变压器'
+    path = r'F:\图像分类与检测\标定前图像\单个变压器'
     file = '0' + '.bmp'
     pathfile = os.path.join(path, sti, file)
     if not os.path.exists(pathfile):
