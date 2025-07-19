@@ -4,7 +4,7 @@ from skimage import io
 from Feature_generation import *
 from matplotlib import pyplot as plt
 
-img = io.imread(r'F:\毕设\实验\bianyaqi2\xisuhe\right_top\1.bmp')
+img = io.imread(r'F:\bianyaqi2\xisuhe\right_top\1.bmp')
 # 高斯滤波器
 blur3 = cv2.GaussianBlur(img, (5, 5), 0)
 # 双边滤波器，同时考虑像素的空间位置和邻域的像素灰度相似性，在滤波的同时较好的保留图片的边缘
