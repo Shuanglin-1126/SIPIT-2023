@@ -1,8 +1,5 @@
 import wx
 import wx.xrc
-#import sys
-#sys.path.append(r"F:\毕设\实验\图像分类与检测\变压器分类与检测")
-#from image_detection import *
 
 # 自定义窗口类MyFrame
 class MyFrame1(wx.Frame):
