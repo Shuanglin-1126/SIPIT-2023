@@ -56,7 +56,7 @@ def caculate_accuracy():
     读取所有文件计算预测正确率
     :return: accuracy: 模板匹配正确率
     """
-    gt_label = get_gtlabel(r"F:\毕设\实验\图像分类与检测\标定前图像\单个变压器")
+    gt_label = get_gtlabel(r"F:\图像分类与检测\标定前图像\单个变压器")
     num_acc_10 = 0
     num_acc_20 = 0
     num_acc_30 = 0
