@@ -52,7 +52,7 @@ class MyFrame2(wx.Frame):
         self.statictext_7.Wrap(-1)
         self.statictext_7.SetFont(wx.Font(16, 70, 90, 90, False, "宋体"))
         self.staticbitmap = wx.StaticBitmap(self.panel, id=wx.ID_ANY,
-                                            bitmap=wx.Bitmap(r"F:\毕设\实验\图像分类与检测\GUI\01.jpg", wx.BITMAP_TYPE_ANY),
+                                            bitmap=wx.Bitmap(r"01.jpg", wx.BITMAP_TYPE_ANY),
                                             pos=(270, 50), size=(400, 350))
 
     def __del__(self):
