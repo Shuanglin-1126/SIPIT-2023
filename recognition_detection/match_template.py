@@ -133,7 +133,7 @@ def interface_template_matching(path):
 
 if __name__ == '__main__':
     st = time.time()
-    labels = interface_template_matching(r"F:\毕设\实验\变压器数据集\03\34.bmp")
+    labels = interface_template_matching(r"F:\变压器数据集\03\34.bmp")
     print(str(labels[3]))
     en = time.time()
     print("单张图片消耗时间：{}".format(en - st))
