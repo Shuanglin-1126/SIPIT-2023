@@ -38,7 +38,7 @@ def img_detection(path):
     return points, angles, ranges
 
 time_st = time.time()
-path = r"F:\毕设\实验\图像分类与检测\变压器检测图像\1个变压器\1.bmp"
+path = r"F:\图像分类与检测\变压器检测图像\1个变压器\1.bmp"
 
 img_detection(path)
 time_end = time.time()
