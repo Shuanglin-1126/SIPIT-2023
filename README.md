@@ -7,53 +7,56 @@ This project is based on [wxFormBuilder](https://github.com/wxFormBuilder/wxForm
 
 ## Introduction
 
-* [**Environment Setup:**]
+* **Environment Setup:**
 ```bash
 conda create -n SIPIT
 conda activate SIPIT
 ```
 
-* [**Install**]
+* **Install**
 ```bash
 git clone https://github.com/Shuanglin-1126/SIPIT-2023.git
 cd SIPIT-2023
 pip install requirements.txt
 ```
 
-* [**Detection of transformers**] 
+* **Detection of transformers**
 
 <p align="center">
-  <img src="assets/overview.png" alt="architecture" width="80%">
+  <img src="assets/DFT.png" alt="architecture" width="80%">
 </p>
 
 ```bash
 python recognition_detection/image_detection.py
 ```
 
-* [**Recognition of transformers**] 
+* **Recognition of transformers**
 
 <p align="center">
-  <img src="assets/overview.png" alt="architecture" width="80%">
+  <img src="assets/RFT_1.png" alt="architecture" width="80%">
+</p>
+<p align="center">
+  <img src="assets/RFT_2.png" alt="architecture" width="80%">
 </p>
 
 ```bash
 python recognition_detection/match_template.py
 ```
 
-* [**Mask based on color**] 
+* **Mask based on color**
 
 <p align="center">
-  <img src="assets/overview.png" alt="architecture" width="80%">
+  <img src="assets/MBC.png" alt="architecture" width="80%">
 </p>
 
 ```bash
 python mask_color/xisuhe.py
 ```
 
-* [**GUI show**] 
+* **GUI show**
 
 <p align="center">
-  <img src="assets/overview.png" alt="architecture" width="80%">
+  <img src="assets/GUI.png" alt="architecture" width="80%">
 </p>
 
 ```bash
